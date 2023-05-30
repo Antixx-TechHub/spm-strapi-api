@@ -13,14 +13,14 @@
   "pluginOptions": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+      ]
     },
     "title": {
       "type": "string",
@@ -55,6 +55,18 @@
     "detailsText": {
       "type": "richtext",
       "required": true
+    },
+    "Experience": {
+      "type": "string"
+    },
+    "EmploymentType": {
+      "type": "string"
+    },
+    "WorkMode": {
+      "type": "string"
+    },
+    "RoleCategory": {
+      "type": "string"
     }
   }
 }
