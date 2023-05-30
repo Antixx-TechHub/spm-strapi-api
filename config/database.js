@@ -8,7 +8,7 @@
 //       database: env('DATABASE_NAME', 'dbtn6shd4j5opr'),
 //       user: env('DATABASE_USERNAME', 'uajbchhyhbxuyl'),
 //       password: env('DATABASE_PASSWORD', '35d3c31cd9f00a9639c9e77e6d09971bd02aa242506cb6b2bc6186d778e677f8'),
-//       ssl: env.bool('DATABASE_SSL', false),
+//       ssl: env.bool('DATABASE_SSL', true),
 //     },
 //   },
 // });
